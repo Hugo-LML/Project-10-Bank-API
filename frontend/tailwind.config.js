@@ -4,21 +4,16 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        sans: ['Roboto', 'sans-serif'],
+        sans: ['Avenir', 'sans-serif'],
       },
       colors: {
-        red: {
-          DEFAULT: '#FF0101',
-          dark: '#E60000',
-        },
         black: {
-          DEFAULT: '#020203',
+          DEFAULT: '#000000',
+          light: '#2c3e50',
         },
-        gray: {
-          DEFAULT: '#FBFBFB',
-          medium: '#74798C',
-          dark: '#20253A',
-        },
+        green: {
+          DEFAULT: '#00bc77',
+        }
       },
     },
   },
