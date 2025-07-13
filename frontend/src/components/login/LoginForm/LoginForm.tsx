@@ -1,7 +1,7 @@
 import { FC } from 'react';
 import Input from '../../common/Input/Input';
 
-const SignInForm: FC = () => {
+const LoginForm: FC = () => {
   return (
     <section className='flex items-center justify-center bg-[#12002b]'>
       <form action='' className='mx-auto mb-20 mt-12 w-[300px] bg-white p-8'>
@@ -21,4 +21,4 @@ const SignInForm: FC = () => {
   );
 };
 
-export default SignInForm;
+export default LoginForm;
