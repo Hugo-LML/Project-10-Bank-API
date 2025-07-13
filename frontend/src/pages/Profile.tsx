@@ -1,7 +1,7 @@
 import { FC } from 'react';
 import Layout from '../components/layout/Layout';
-import ProfileHeader from '../components/profile/ProfileHeader/ProfileHeader';
 import ProfileAccounts from '../components/profile/ProfileAccounts/ProfileAccounts';
+import ProfileHeader from '../components/profile/ProfileHeader/ProfileHeader';
 
 const Profile: FC = () => {
   return (
