@@ -13,6 +13,9 @@ module.exports = {
         },
         green: {
           DEFAULT: '#00bc77',
+        },
+        blue: {
+          DEFAULT: '#12002b',
         }
       },
     },

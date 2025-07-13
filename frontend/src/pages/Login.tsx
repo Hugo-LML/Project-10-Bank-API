@@ -4,7 +4,7 @@ import LoginForm from '../components/login/LoginForm/LoginForm';
 
 const Login: FC = () => {
   return (
-    <Layout>
+    <Layout className='bg-blue'>
       <LoginForm />
     </Layout>
   );

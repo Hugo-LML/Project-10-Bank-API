@@ -3,7 +3,7 @@ import Input from '../../common/Input/Input';
 
 const LoginForm: FC = () => {
   return (
-    <section className='flex items-center justify-center bg-[#12002b]'>
+    <section className='flex items-center justify-center'>
       <form action='' className='mx-auto mb-20 mt-12 w-[300px] bg-white p-8'>
         <i className='fa fa-user-circle mx-auto w-full text-center'></i>
         <h1 className='my-5 text-center text-2xl font-bold'>Sign In</h1>

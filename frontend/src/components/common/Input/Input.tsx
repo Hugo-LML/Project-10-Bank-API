@@ -7,13 +7,13 @@ interface InputProps extends InputHTMLAttributes<HTMLInputElement> {
   inputClassName?: string;
 }
 
-const Input: FC<InputProps> = ({ id, label, type = 'text', labelClassName = '', inputClassName = '' }) => {
+const Input: FC<InputProps> = ({ id, label, type = 'text', labelClassName = '', inputClassName = '', ...props }) => {
   return (
     <>
       <label htmlFor={id} className={clsx('block font-bold', labelClassName)}>
         {label}
       </label>
-      <input type={type} id={id} className={clsx('block w-full rounded-sm border border-black p-[5px] text-xl', inputClassName)} />
+      <input type={type} id={id} className={clsx('block w-full rounded-sm border border-black p-[5px] text-xl', inputClassName)} {...props} />
     </>
   );
 };
